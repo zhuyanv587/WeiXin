@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">微信</string>
+    <string name="toolbar_search">搜索</string>
+    <string name="toolbar_add">添加</string>
+    <string name="menu_talk">发起群聊</string>
+    <string name="menu_friend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+    <string name="menu_pay">收付款</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="weixin_fragment">微信Fragment</string>
+    <string name="btn_weixin">微信</string>
+    <string name="btn_address">通迅录</string>
+    <string name="btn_faxian">发现</string>
+    <string name="btn_wo">我</string>
+    <string name="seetingFragment">个人fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="settings">设置界面Fragment</string>
+</resources>

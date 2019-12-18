@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccents"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_weixin"
+            style="@style/tab_menu_item"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_menu_weixin"
+            android:text="微信" />
+
+        <RadioButton
+            android:id="@+id/btn_tongxunlu"
+            style="@style/tab_menu_item"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_menu_tongxunlu"
+            android:text="通讯录" />
+
+        <RadioButton
+            android:id="@+id/btn_faxian"
+            style="@style/tab_menu_item"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_menu_faxian"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/btn_wo"
+            style="@style/tab_menu_item"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_menu_wo"
+            android:text="我" />
+    </RadioGroup>
+
+
+</LinearLayout>
